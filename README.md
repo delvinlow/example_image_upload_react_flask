@@ -27,7 +27,7 @@ The backend example in `backend-flask/main.py` has a POST route handler that acc
 
 1. Download Anaconda or flask manually. If you are using Anaconda, create a virtual environment first with Python >= 3.5 and install `flask` and `flask_cors`
 2. Navigate into the `backend-flask` folder
-3. Run `env FLASK_APP=main.py flask run` to start the Flask app
+3. Run `env FLASK_APP=main.py flask run` to start the Flask app on MacOS. On Windows, run `set FLASK_APP=main` then `flask run`
 4. The server will start listening on http://127.0.0.1:5000/ 
 5. When an image is uploaded via the React app, this route handler can:
    1.  Accept the image, 
